@@ -2,7 +2,11 @@
 
 This is a very simple tool for testing latency of mice, gamepads, controllers, and keyboards.
 
-A white window will pop-up.  is white and turns black when any input is detected. For use with high-speed cameras + high refresh rate monitors for capturing.
+A white window will pop-up and turn black when any input is detected. That means you can time the latency of your mouse clicks, key-presses, and controller button-presses!
+
+This polls as fast as your CPU will allow it (1000hz and beyond!)
+
+For use with high-speed cameras + high refresh rate monitors for capturing.
 
 ## Building
 

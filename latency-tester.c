@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
         SDL_RenderClear(renderer);
         SDL_RenderPresent(renderer);
       }
-      else if (event.type == SDL_JOYBUTTONUP || event.type == SDL_CONTROLLERBUTTONDOWN || event.type == SDL_KEYUP || event.type == SDL_MOUSEBUTTONUP)
+      else if (event.type == SDL_JOYBUTTONUP || event.type == SDL_CONTROLLERBUTTONUP || event.type == SDL_KEYUP || event.type == SDL_MOUSEBUTTONUP)
       {
         SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
         SDL_RenderClear(renderer);
